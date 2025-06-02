@@ -1,0 +1,18 @@
+python --version
+git --version
+pip install --upgrade pip
+pip install freqtrade
+freqtrade --version
+mkdir C:\freqtrade_bot
+cd C:\freqtrade_bot
+freqtrade new-config
+freqtrade new-strategy --strategy MyAdvancedStrategy
+freqtrade download-data --exchange binance --quote-currency USDT --timeframes 5m --pairs BTC/USDT
+freqtrade backtesting --strategy MyAdvancedStrategy --timeframe 1h 
+            freqtrade backtesting --config user_data/config.json --strategy MyAdvancedStrategy
+freqtrade trade --config user_data/config.json --strategy MyAdvancedStrategy
+
+freqtrade download-data --exchange binance --timeframes 5m --timerange=20250501-20250531 --config D:\Aurangzeb\Freqtrade\freqtrade\user_data\config.json
+
+
+           
