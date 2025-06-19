@@ -12,7 +12,9 @@ freqtrade backtesting --strategy MyAdvancedStrategy --timeframe 1h
             freqtrade backtesting --config user_data/config.json --strategy MyAdvancedStrategy
 freqtrade trade --config user_data/config.json --strategy MyAdvancedStrategy
 
-freqtrade download-data --exchange binance --timeframes 5m --timerange=20250501-20250531 --config D:\Aurangzeb\Freqtrade\freqtrade\user_data\config.json
+freqtrade download-data --exchange binance --timeframes 5m --timerange=20250401-20250531 --config D:\Aurangzeb\Freqtrade\freqtrade\user_data\config.json
+
+freqtrade download-data --exchange binance --timeframes 5m --timerange 20250101-20250617 --pairs BTC/USDT ETH/USDT BNB/USDT SOL/USDT XRP/USDT DOGE/USDT ADA/USDT AVAX/USDT SHIB/USDT DOT/USDT LINK/USDT MATIC/USDT TRX/USDT TON/USDT LTC/USDT BCH/USDT NEAR/USDT XLM/USDT ATOM/USDT UNI/USDT
 
 
            
