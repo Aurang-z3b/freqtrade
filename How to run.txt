@@ -1,0 +1,31 @@
+How to run bot
+
+1. Go to Freqtrade folder
+2. Open terminal
+3. Run command freqtrade trade
+
+
+How to Download data
+
+1. Go to freqtrade folder
+2. Open terminal
+3. run ./download_data
+
+How to merge new data and old data
+
+Go to user_data folder
+open terminal
+run python merge_data.py
+
+How to Process data
+
+Go to user_data folder
+open terminal
+run python data_preparation.py
+
+How to train model
+
+Go to user_data
+open terminal
+run train_model.py
+
